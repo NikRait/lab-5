@@ -7,10 +7,10 @@ while temp > 0:
     digit = temp % 10 # getting current last digit
     reversed_num = reversed_num * 10 + digit
     temp //= 10 # removing last digit
-    if original == reversed_num:
-        print(f"{original} - palindrome")
-    else:
-        print(f"{original} - not palindrome")
+if original == reversed_num:
+    print(f"{original} - palindrome")
+else:
+    print(f"{original} - not palindrome")
 
 '''
 text = input("Enter string: ")
